@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM fedora:28
+FROM quay.io/ibmz/fedora-s390x:34
 
 RUN set -ex; \
   dnf install -y \
