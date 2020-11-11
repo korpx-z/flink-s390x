@@ -10,6 +10,7 @@ filter.properties
 logs.zip
 target
 tmp
+.*
 *.class
 *.iml
 *.swp
