@@ -62,33 +62,9 @@ counts.writeAsCsv(outputPath)
 ```
 
 
-
-## Building Apache Flink from Source
-
-Prerequisites for building Flink:
-
-* Unix-like environment (we use Linux, Mac OS X, Cygwin, WSL)
-* Git
-* Maven (we recommend version 3.2.5 and require at least 3.1.1)
-* Java 8 or 11 (Java 9 or 10 may work)
-
-```
-git clone https://github.com/apache/flink.git
-cd flink
-mvn clean package -DskipTests # this will take up to 10 minutes
-```
-
-Flink is now installed in `build-target`.
-
-*NOTE: Maven 3.3.x can build Flink, but will not properly shade away certain dependencies. Maven 3.1.1 creates the libraries properly.
-To build unit tests with Java 8, use Java 8u51 or above to prevent failures in unit tests that use the PowerMock runner.*
-
-
-
 ## Documentation
 
-The documentation of Apache Flink is located on the website: [https://flink.apache.org](https://flink.apache.org)
-or in the `docs/` directory of the source code.
+The documentation of Apache Flink is located on the website: [https://flink.apache.org](https://flink.apache.org).
 
 
 
