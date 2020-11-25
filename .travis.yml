@@ -5,7 +5,7 @@ env:
   global:
 #    - TEST_DIR="$PWD/docs/docker/"
 #    - TEST_SCRIPT="test.sh"
-    - BUILD_DIR="$PWD/docs/docker/"
+    - BUILD_DIR="$PWD/docker/"
     - REPO="quay.io/ibmz/flink"
     - TAG="$REPO:1.11"
 before_script: 
