@@ -27,6 +27,5 @@ RUN set -ex; \
     gcc-c++ \
     python-setuptools \
   && gem install bundler -v 1.16.1 \
-  && echo $PATH \
-  && dnf clean all;
+  && echo $PATH 
   
