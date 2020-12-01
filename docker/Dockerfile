@@ -28,5 +28,5 @@ RUN set -ex; \
     python-setuptools \
   && gem install bundler -v 1.16.1 \
   && echo $PATH \
-  dnf clean all;
+  && dnf clean all;
   
